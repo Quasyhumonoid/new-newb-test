@@ -17,3 +17,8 @@ print(num + age)
 num = float(1.5) #number with a decimal is a float
 #this was unecessary to declare as a float but I declared it anyway
 print(num + age) #float and int are compatible in most situations
+answer = "True"
+answer = bool(answer) #converts any string except 0 or blank to boolean True
+print(answer)
+#if variable is formatted correctly when declared it will automatically
+# format type. Values from input are always strings.
