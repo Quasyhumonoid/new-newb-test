@@ -1,5 +1,5 @@
 
-for letter in "dogs":
+for letter in "dogs": # for each value in the string "dogs" assign the value to variable name "letter"
     print(letter)
 friends = ["jim", "karen", "dick"]
 for friend in friends:

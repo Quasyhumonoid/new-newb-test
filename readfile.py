@@ -3,11 +3,11 @@ employees = open("employees.txt", "r")
 # w: write
 # a: append (add too the end)
 # r+: read and write
-print(employees.readable())
-print(employees.read())
-print(employees.readline())
+print(employees.readable()) #checks if file can be read
+print(employees.read()) #prints the file contents
+print(employees.readline()) #prints the first line of the file
 print(employees.readline()) #prints the following line
-print(employees.readlines()) #puts lines in array and prints it
+print(employees.readlines()) #puts lines in a list and prints it
 for employee in employees.readlines():
     print(employee)
 employees.close()
@@ -15,6 +15,6 @@ employees.close()
 employees = open("employees.txt", "a")
 employees.write("\ntoby")
 employees.close()
-employees = open("employees.txt", "w")
+employees = open("employees.txt", "w") #if the file listed doesn't exist it will be created.
 employees.write()
 employees.close()

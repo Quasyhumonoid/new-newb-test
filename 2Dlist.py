@@ -5,7 +5,7 @@ numGrid = [
     [7, 8, 9],
     [0]
 ]
-print(numGrid[2][1])
+print(numGrid[2][1]) #Row 2 Column 1
 
 for row in numGrid:
     for col in row:
